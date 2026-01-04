@@ -59,7 +59,7 @@ const AuthorSection = () => {
               
               {/* Само изображение */}
               <img 
-                src="/irina.png" 
+                src="irina.png" 
                 alt="Ирина Иваненко" 
                 className="w-full h-full object-cover"
               />
