@@ -13,9 +13,9 @@ const AuthorSection = () => {
             </h2>
 
             <p className="text-muted-foreground/80 text-lg mb-8 font-light leading-relaxed">
-              Эксперт по личной эффективности и управлению состоянием. Более 7
-              лет помогаю предпринимателям и топ-менеджерам находить баланс и
-              расти без выгорания.
+              Преподаватель медитации и практик осознанности, инженер биомедицинских технологий. 
+              Уже 20 лет я исследую законы жизни, причинно-следственные связи и внутренние процессы человека. 
+              Я не предлагаю временных решений, а даю фундаментальные навыки для жизни и учу видеть суть вещей. 
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
@@ -25,7 +25,7 @@ const AuthorSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground text-sm mb-1 uppercase tracking-wider">
-                    500+ учеников
+                    100+ учеников
                   </h4>
                   <p className="text-xs text-muted-foreground font-light leading-snug">
                     Прошли через авторские программы и изменили жизнь.
@@ -38,10 +38,10 @@ const AuthorSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground text-sm mb-1 uppercase tracking-wider">
-                    7 лет практики
+                    20 лет 
                   </h4>
                   <p className="text-xs text-muted-foreground font-light leading-snug">
-                    В теме психологии достижений и биохакинга.
+                    В теме осознанности 
                   </p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const AuthorSection = () => {
               {/* Name Badge Overlay */}
               <div className="absolute bottom-6 left-6 right-6 glass-card p-4 rounded-2xl border-foreground/20">
                 <p className="text-foreground font-black text-xl tracking-tight uppercase">
-                  Имя Эксперта
+                  Ирина Иваненко
                 </p>
                 <p className="text-primary text-[10px] font-bold uppercase tracking-widest">
                   Автор программы
