@@ -15,7 +15,7 @@ const TelegramCTA = () => {
         </p>
 
         <a
-          href="https://t.me/your_group"
+          href="https://t.me/+Htp5nEaKXUs0M2Ri"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex flex-col items-center gap-6 group"
