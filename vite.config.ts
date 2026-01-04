@@ -9,11 +9,18 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  plugins: [
+    react(),
+    mode === "development" && componentTagger(),
+  ].filter(Boolean),
+  
+  // Базовый путь для GitHub Pages
   base: '/intensive/',
+  
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      // Заменили __dirname на process.cwd() для совместимости с GitHub Actions
+      "@": path.resolve(process.cwd(), "./src"),
     },
   },
 }));
