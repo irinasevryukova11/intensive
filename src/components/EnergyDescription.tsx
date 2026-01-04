@@ -1,3 +1,5 @@
+import { ChevronRight } from "lucide-react";
+
 const EnergyDescription = () => {
   return (
     <section className="py-24 md:py-32 px-6 relative z-10">
@@ -49,34 +51,3 @@ const EnergyDescription = () => {
           <div className="w-16 h-px bg-gradient-to-r from-transparent via-accent to-transparent mx-auto" />
 
           <div className="text-center pt-4">
-            <p className="text-muted-foreground text-lg font-light mb-8">
-              На этом 3-дневном интенсиве мы разберёмся:
-            </p>
-            <div className="flex flex-col md:flex-row justify-center gap-4 md:gap-8">
-              <div className="flex items-center gap-3 justify-center">
-                <span className="text-2xl">👉</span>
-                <span className="text-foreground font-medium">
-                  где именно твой ресурс
-                </span>
-              </div>
-              <div className="flex items-center gap-3 justify-center">
-                <span className="text-2xl">👉</span>
-                <span className="text-foreground font-medium">
-                  какие типы энергии у тебя есть
-                </span>
-              </div>
-              <div className="flex items-center gap-3 justify-center">
-                <span className="text-2xl">👉</span>
-                <span className="text-foreground font-medium">
-                  почему одни способы работают, а другие — нет
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default EnergyDescription;
