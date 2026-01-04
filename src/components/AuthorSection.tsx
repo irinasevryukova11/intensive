@@ -48,8 +48,7 @@ const AuthorSection = () => {
             </div>
 
             <div className="flex items-center gap-4 text-muted-foreground italic font-light">
-              «Моя задача — дать вам не теорию, а реальные инструменты, которые
-              работают уже сегодня.»
+              «Я не предлагаю временных решений, а даю фундаментальные навыки для жизни и учу видеть суть вещей.»
             </div>
           </div>
 
