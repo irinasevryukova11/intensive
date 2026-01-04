@@ -23,7 +23,7 @@ const HeroSection = () => {
           <p className="text-muted-foreground text-[10px] uppercase font-bold tracking-widest">
             Дата начала
           </p>
-          <p className="text-xl font-bold text-foreground">8 января / 11:00</p>
+          <p className="text-xl font-bold text-foreground">8 января / 11:00 нск</p>
         </div>
       </div>
     </section>;
