@@ -51,3 +51,37 @@ const EnergyDescription = () => {
           <div className="w-16 h-px bg-gradient-to-r from-transparent via-accent to-transparent mx-auto" />
 
           <div className="text-center pt-4">
+            <p className="text-muted-foreground text-lg font-light mb-8">
+              На этом 3-дневном интенсиве мы разберёмся:
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-8">
+              <div className="flex items-start gap-3 text-left">
+                <ChevronRight className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
+                <span className="text-foreground font-medium leading-snug">
+                  где именно твой ресурс
+                </span>
+              </div>
+              
+              <div className="flex items-start gap-3 text-left">
+                <ChevronRight className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
+                <span className="text-foreground font-medium leading-snug">
+                  какие типы энергии у тебя есть
+                </span>
+              </div>
+              
+              <div className="flex items-start gap-3 text-left">
+                <ChevronRight className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
+                <span className="text-foreground font-medium leading-snug">
+                  почему одни способы работают, а другие — нет
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default EnergyDescription;
